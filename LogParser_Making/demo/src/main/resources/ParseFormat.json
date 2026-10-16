@@ -1,0 +1,23 @@
+{
+  "LOGIN": {
+    "hint": "/",
+    "pattern": "^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{3}) \\[([^]]+)\\] (.*)$",
+    "groupList": [
+      "timestamp",
+      "level",
+      "url"
+    ]
+  },
+
+  "SYSTEM": {
+    "hint": "device",
+    "pattern": "^(\\d{2}/\\d{2}/\\d{2}-\\d{2}:\\d{2}:\\d{2})\\s+(\\S+)\\s+(\\d{1,3}(?:\\.\\d{1,3}){3})\\s+(.+)$",
+    "groupList": [
+      "timestamp",
+      "deviceId",
+      "ip",
+      "message"
+    ]
+  }
+
+}
