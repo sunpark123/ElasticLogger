@@ -1,0 +1,208 @@
+{"LogID":"0","timestamp":"2026-10-01 09:00:00","message":"로그인 성공","user":"admin","ip":"192.168.0.1"}
+{"LogID":"1","timestamp":"2026-10-01 09:00:37","message":"로그아웃","user":"user01","ip":"192.168.0.2"}
+{"LogID":"2","timestamp":"2026-10-01 09:01:14","message":"페이지 조회","user":"user02","ip":"192.168.0.3"}
+{"LogID":"3","level":"ERROR","rawLog":"2026-10-01 09:05:22:sensor03:server02:203.0.113.25:514:Timeout detected:INFO"}
+{"LogID":"4","paymentId":"PAY-20261020-00142","user":"choi04","amount":"25000","currency":"KRW","status":"FAILED"}
+{"LogID":"5","host":"server01","cpuUsage":"15.3","memoryUsage":"16384","diskUsage":"63","status":"OK"}
+{"LogID":"6","host":"app01","cpuUsage":"92.3","memoryUsage":"4096","diskUsage":"60","status":"WARN"}
+{"LogID":"7","host":"server01","cpuUsage":"31.9","memoryUsage":"4096","diskUsage":"88","status":"WARN"}
+{"LogID":"8","paymentId":"PAY-20261020-00137","user":"kim01","amount":"12000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"9","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.10 dst=10.0.0.15 dport=80 protocol=TCP rule=RATE_LIMIT"}
+{"LogID":"10","timestamp":"2026-10-01 09:04:49","message":"비밀번호 변경","user":"admin","ip":"172.16.1.8"}
+{"LogID":"11","timestamp":"2026-10-01 09:01:09","deviceId":"device02","hostId":"server01","ip":"192.168.0.10","port":"514","message":"Heartbeat received","level":"ERROR"}
+{"LogID":"12","level":"ERROR","rawLog":"FW-ALLOW src=10.0.0.15 dst=10.0.0.15 dport=22 protocol=UDP rule=RATE_LIMIT"}
+{"LogID":"13","host":"app01","cpuUsage":"47.3","memoryUsage":"8192","diskUsage":"26","status":"OK"}
+{"LogID":"14","action":"DENY","sourceIp":"192.168.0.4","destinationIp":"10.0.0.15","destinationPort":"8080","protocol":"UDP","rule":"RATE_LIMIT"}
+{"LogID":"15","timestamp":"2026-10-01 09:00:51","message":"로그인 성공","user":"choi04","ip":"172.16.1.8"}
+{"LogID":"16","level":"ERROR","rawLog":"FW-ALLOW src=203.0.113.25 dst=10.0.0.20 dport=80 protocol=UDP rule=BLOCK_EXTERNAL"}
+{"LogID":"17","timestamp":"2026-10-01 09:00:46","deviceId":"device01","hostId":"server01","ip":"10.0.0.15","port":"514","message":"Packet received","level":"ERROR"}
+{"LogID":"18","timestamp":"2026-10-01 09:03:24","message":"파일 다운로드","user":"choi04","ip":"10.0.0.15"}
+{"LogID":"19","timestamp":"2026-10-01 09:02:18","deviceId":"device02","hostId":"server02","ip":"172.16.1.8","port":"443","message":"Connection closed","level":"INFO"}
+{"LogID":"20","host":"server02","cpuUsage":"15.0","memoryUsage":"12288","diskUsage":"30","status":"OK"}
+{"LogID":"21","level":"ERROR","rawLog":"FW-ALLOW src=172.16.1.8 dst=10.0.0.15 dport=3306 protocol=TCP rule=RATE_LIMIT"}
+{"LogID":"22","timestamp":"2026-10-01 09:00:34","message":"파일 다운로드","user":"guest","ip":"172.16.1.8"}
+{"LogID":"23","action":"DENY","sourceIp":"192.168.0.1","destinationIp":"10.0.0.15","destinationPort":"8080","protocol":"TCP","rule":"BLOCK_EXTERNAL"}
+{"LogID":"24","level":"ERROR","rawLog":"2026-10-01 09:04:13:sensor03:server02:192.168.0.10:443:Heartbeat received:ERROR"}
+{"LogID":"25","paymentId":"PAY-20261020-00128","user":"lee02","amount":"89000","currency":"KRW","status":"PENDING"}
+{"LogID":"26","timestamp":"2026-10-01 09:00:17","message":"세션 만료","user":"kim01","ip":"192.168.0.4"}
+{"LogID":"27","host":"app01","cpuUsage":"91.5","memoryUsage":"8192","diskUsage":"56","status":"WARN"}
+{"LogID":"28","timestamp":"2026-10-01 09:01:08","message":"권한 확인","user":"admin","ip":"203.0.113.25"}
+{"LogID":"29","timestamp":"2026-10-01 09:01:42","message":"로그인 성공","user":"guest","ip":"192.168.0.4"}
+{"LogID":"30","host":"server01","cpuUsage":"64.5","memoryUsage":"8192","diskUsage":"94","status":"WARN"}
+{"LogID":"31","timestamp":"2026-10-01 09:01:59","message":"권한 확인","user":"park03","ip":"192.168.0.1"}
+{"LogID":"32","timestamp":"2026-10-01 09:02:33","message":"세션 만료","user":"choi04","ip":"203.0.113.25"}
+{"LogID":"33","timestamp":"2026-10-01 09:04:59","deviceId":"device01","hostId":"collector01","ip":"10.0.0.15","port":"8080","message":"Packet received","level":"WARN"}
+{"LogID":"34","host":"app01","cpuUsage":"15.0","memoryUsage":"12288","diskUsage":"81","status":"WARN"}
+{"LogID":"35","host":"db01","cpuUsage":"26.8","memoryUsage":"2048","diskUsage":"75","status":"OK"}
+{"LogID":"36","level":"ERROR","rawLog":"2026-10-01 09:00:23:sensor03:server01:192.168.0.1:443:Connection closed:INFO"}
+{"LogID":"37","paymentId":"PAY-20261020-00141","user":"lee02","amount":"120000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"38","paymentId":"PAY-20261020-00133","user":"choi04","amount":"12000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"39","action":"DENY","sourceIp":"192.168.0.1","destinationIp":"10.0.0.15","destinationPort":"3306","protocol":"TCP","rule":"RATE_LIMIT"}
+{"LogID":"40","timestamp":"2026-10-01 09:02:50","message":"로그아웃","user":"guest","ip":"10.0.0.15"}
+{"LogID":"41","timestamp":"2026-10-01 09:03:50","deviceId":"device01","hostId":"server01","ip":"172.16.1.8","port":"514","message":"Timeout detected","level":"WARN"}
+{"LogID":"42","action":"DENY","sourceIp":"203.0.113.25","destinationIp":"10.0.0.15","destinationPort":"443","protocol":"TCP","rule":"RATE_LIMIT"}
+{"LogID":"43","action":"DENY","sourceIp":"203.0.113.25","destinationIp":"192.168.1.10","destinationPort":"8080","protocol":"TCP","rule":"BLOCK_EXTERNAL"}
+{"LogID":"44","action":"DENY","sourceIp":"192.168.0.1","destinationIp":"10.0.0.20","destinationPort":"443","protocol":"UDP","rule":"RATE_LIMIT"}
+{"LogID":"45","timestamp":"2026-10-01 09:03:04","deviceId":"device01","hostId":"collector01","ip":"172.16.1.8","port":"514","message":"Heartbeat received","level":"ERROR"}
+{"LogID":"46","timestamp":"2026-10-01 09:03:27","deviceId":"device02","hostId":"server02","ip":"172.16.1.8","port":"9000","message":"Heartbeat received","level":"WARN"}
+{"LogID":"47","timestamp":"2026-10-01 09:00:00","deviceId":"device02","hostId":"collector01","ip":"203.0.113.25","port":"514","message":"Timeout detected","level":"INFO"}
+{"LogID":"48","host":"server01","cpuUsage":"24.5","memoryUsage":"2048","diskUsage":"69","status":"OK"}
+{"LogID":"49","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.1 dst=10.0.0.20 dport=80 protocol=UDP rule=ALLOW_INTERNAL"}
+{"LogID":"50","host":"server01","cpuUsage":"91.5","memoryUsage":"4096","diskUsage":"41","status":"WARN"}
+{"LogID":"51","timestamp":"2026-10-01 09:02:41","deviceId":"device01","hostId":"server01","ip":"192.168.0.10","port":"9000","message":"Connection closed","level":"INFO"}
+{"LogID":"52","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.1 dst=10.0.0.20 dport=80 protocol=UDP rule=BLOCK_EXTERNAL"}
+{"LogID":"53","timestamp":"2026-10-01 09:05:06","message":"로그아웃","user":"park03","ip":"192.168.0.1"}
+{"LogID":"54","paymentId":"PAY-20261020-00139","user":"park03","amount":"12000","currency":"KRW","status":"PENDING"}
+{"LogID":"55","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.10 dst=10.0.0.20 dport=80 protocol=UDP rule=RATE_LIMIT"}
+{"LogID":"56","host":"db01","cpuUsage":"23.6","memoryUsage":"6144","diskUsage":"47","status":"OK"}
+{"LogID":"57","level":"ERROR","rawLog":"2026-10-01 09:05:45:sensor03:collector01:192.168.0.1:514:Connection closed:INFO"}
+{"LogID":"58","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.10 dst=10.0.0.20 dport=80 protocol=UDP rule=ADMIN_ACCESS"}
+{"LogID":"59","timestamp":"2026-10-01 09:05:23","message":"로그아웃","user":"admin","ip":"203.0.113.25"}
+{"LogID":"60","timestamp":"2026-10-01 09:06:08","deviceId":"device02","hostId":"server02","ip":"192.168.0.4","port":"9000","message":"Connection established","level":"ERROR"}
+{"LogID":"61","host":"db01","cpuUsage":"71.3","memoryUsage":"16384","diskUsage":"91","status":"WARN"}
+{"LogID":"62","timestamp":"2026-10-01 09:03:07","message":"권한 확인","user":"kim01","ip":"192.168.0.1"}
+{"LogID":"63","paymentId":"PAY-20261020-00140","user":"lee02","amount":"55000","currency":"KRW","status":"FAILED"}
+{"LogID":"64","paymentId":"PAY-20261020-00130","user":"choi04","amount":"25000","currency":"KRW","status":"PENDING"}
+{"LogID":"65","paymentId":"PAY-20261020-00126","user":"kim01","amount":"12000","currency":"KRW","status":"FAILED"}
+{"LogID":"66","paymentId":"PAY-20261020-00131","user":"lee02","amount":"55000","currency":"KRW","status":"FAILED"}
+{"LogID":"67","paymentId":"PAY-20261020-00136","user":"lee02","amount":"120000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"68","action":"DENY","sourceIp":"192.168.0.10","destinationIp":"10.0.0.15","destinationPort":"22","protocol":"UDP","rule":"RATE_LIMIT"}
+{"LogID":"69","timestamp":"2026-10-01 09:04:32","message":"비밀번호 변경","user":"kim01","ip":"203.0.113.25"}
+{"LogID":"70","level":"ERROR","rawLog":"2026-10-01 09:06:31:sensor03:server02:203.0.113.25:443:Timeout detected:INFO"}
+{"LogID":"71","paymentId":"PAY-20261020-00134","user":"lee02","amount":"12000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"72","paymentId":"PAY-20261020-00124","user":"park03","amount":"55000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"73","paymentId":"PAY-20261020-00135","user":"kim01","amount":"120000","currency":"KRW","status":"PENDING"}
+{"LogID":"74","timestamp":"2026-10-01 09:07:17","deviceId":"device01","hostId":"collector01","ip":"203.0.113.25","port":"8080","message":"Timeout detected","level":"WARN"}
+{"LogID":"75","host":"db01","cpuUsage":"22.3","memoryUsage":"4096","diskUsage":"55","status":"OK"}
+{"LogID":"76","level":"ERROR","rawLog":"2026-10-01 09:06:54:sensor03:server02:172.16.1.8:443:Heartbeat received:WARN"}
+{"LogID":"77","timestamp":"2026-10-01 09:04:15","message":"로그인 성공","user":"lee02","ip":"192.168.0.1"}
+{"LogID":"78","level":"ERROR","rawLog":"FW-ALLOW src=10.0.0.15 dst=10.0.0.15 dport=80 protocol=UDP rule=ADMIN_ACCESS"}
+{"LogID":"79","paymentId":"PAY-20261020-00125","user":"kim01","amount":"25000","currency":"KRW","status":"PENDING"}
+{"LogID":"80","timestamp":"2026-10-01 09:02:16","message":"권한 확인","user":"guest","ip":"172.16.1.8"}
+{"LogID":"81","level":"ERROR","rawLog":"FW-ALLOW src=172.16.1.8 dst=192.168.1.10 dport=443 protocol=TCP rule=ALLOW_INTERNAL"}
+{"LogID":"82","paymentId":"PAY-20261020-00129","user":"lee02","amount":"55000","currency":"KRW","status":"PENDING"}
+{"LogID":"83","timestamp":"2026-10-01 09:01:55","deviceId":"device01","hostId":"collector01","ip":"172.16.1.8","port":"443","message":"Heartbeat received","level":"WARN"}
+{"LogID":"84","host":"db01","cpuUsage":"52.7","memoryUsage":"4096","diskUsage":"71","status":"OK"}
+{"LogID":"85","host":"server01","cpuUsage":"14.5","memoryUsage":"12288","diskUsage":"21","status":"OK"}
+{"LogID":"86","timestamp":"2026-10-01 09:00:00","message":"세션 만료","user":"admin","ip":"192.168.0.1"}
+{"LogID":"87","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.10 dst=10.0.0.15 dport=22 protocol=UDP rule=BLOCK_EXTERNAL"}
+{"LogID":"88","timestamp":"2026-10-01 09:01:25","message":"로그아웃","user":"admin","ip":"192.168.0.1"}
+{"LogID":"89","timestamp":"2026-10-01 09:04:36","deviceId":"device02","hostId":"server01","ip":"192.168.0.1","port":"8080","message":"Heartbeat received","level":"ERROR"}
+{"LogID":"90","timestamp":"2026-10-01 09:01:32","deviceId":"device02","hostId":"collector01","ip":"172.16.1.8","port":"8080","message":"Timeout detected","level":"ERROR"}
+{"LogID":"91","host":"server01","cpuUsage":"61.0","memoryUsage":"12288","diskUsage":"27","status":"OK"}
+{"LogID":"92","paymentId":"PAY-20261020-00132","user":"park03","amount":"89000","currency":"KRW","status":"PENDING"}
+{"LogID":"93","timestamp":"2026-10-01 09:03:58","message":"파일 다운로드","user":"kim01","ip":"192.168.0.1"}
+{"LogID":"94","host":"db01","cpuUsage":"32.0","memoryUsage":"2048","diskUsage":"76","status":"OK"}
+{"LogID":"95","host":"db01","cpuUsage":"20.6","memoryUsage":"12288","diskUsage":"51","status":"OK"}
+{"LogID":"96","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.4 dst=10.0.0.15 dport=80 protocol=UDP rule=RATE_LIMIT"}
+{"LogID":"97","paymentId":"PAY-20261020-00123","user":"choi04","amount":"12000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"98","action":"DENY","sourceIp":"203.0.113.25","destinationIp":"192.168.1.10","destinationPort":"80","protocol":"TCP","rule":"ALLOW_INTERNAL"}
+{"LogID":"99","paymentId":"PAY-20261020-00127","user":"kim01","amount":"120000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"100","paymentId":"PAY-20261020-00138","user":"lee02","amount":"12000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"101","host":"server02","cpuUsage":"16.0","memoryUsage":"2048","diskUsage":"50","status":"OK"}
+{"LogID":"102","timestamp":"2026-10-01 09:03:41","message":"비밀번호 변경","user":"kim01","ip":"192.168.0.4"}
+{"LogID":"103","level":"ERROR","rawLog":"나는에러로그크크크/에러"}
+{"LogID":"0","timestamp":"2026-10-01 09:00:00","message":"로그인 성공","user":"admin","ip":"192.168.0.1"}
+{"LogID":"1","timestamp":"2026-10-01 09:00:37","message":"로그아웃","user":"user01","ip":"192.168.0.2"}
+{"LogID":"2","timestamp":"2026-10-01 09:01:14","message":"페이지 조회","user":"user02","ip":"192.168.0.3"}
+{"LogID":"3","level":"ERROR","rawLog":"2026-10-01 09:05:22:sensor03:server02:203.0.113.25:514:Timeout detected:INFO"}
+{"LogID":"4","paymentId":"PAY-20261020-00142","user":"choi04","amount":"25000","currency":"KRW","status":"FAILED"}
+{"LogID":"5","host":"server01","cpuUsage":"15.3","memoryUsage":"16384","diskUsage":"63","status":"OK"}
+{"LogID":"6","host":"app01","cpuUsage":"92.3","memoryUsage":"4096","diskUsage":"60","status":"WARN"}
+{"LogID":"7","host":"server01","cpuUsage":"31.9","memoryUsage":"4096","diskUsage":"88","status":"WARN"}
+{"LogID":"8","paymentId":"PAY-20261020-00137","user":"kim01","amount":"12000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"9","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.10 dst=10.0.0.15 dport=80 protocol=TCP rule=RATE_LIMIT"}
+{"LogID":"10","timestamp":"2026-10-01 09:04:49","message":"비밀번호 변경","user":"admin","ip":"172.16.1.8"}
+{"LogID":"11","timestamp":"2026-10-01 09:01:09","deviceId":"device02","hostId":"server01","ip":"192.168.0.10","port":"514","message":"Heartbeat received","level":"ERROR"}
+{"LogID":"12","level":"ERROR","rawLog":"FW-ALLOW src=10.0.0.15 dst=10.0.0.15 dport=22 protocol=UDP rule=RATE_LIMIT"}
+{"LogID":"13","host":"app01","cpuUsage":"47.3","memoryUsage":"8192","diskUsage":"26","status":"OK"}
+{"LogID":"14","action":"DENY","sourceIp":"192.168.0.4","destinationIp":"10.0.0.15","destinationPort":"8080","protocol":"UDP","rule":"RATE_LIMIT"}
+{"LogID":"15","timestamp":"2026-10-01 09:00:51","message":"로그인 성공","user":"choi04","ip":"172.16.1.8"}
+{"LogID":"16","level":"ERROR","rawLog":"FW-ALLOW src=203.0.113.25 dst=10.0.0.20 dport=80 protocol=UDP rule=BLOCK_EXTERNAL"}
+{"LogID":"17","timestamp":"2026-10-01 09:00:46","deviceId":"device01","hostId":"server01","ip":"10.0.0.15","port":"514","message":"Packet received","level":"ERROR"}
+{"LogID":"18","timestamp":"2026-10-01 09:03:24","message":"파일 다운로드","user":"choi04","ip":"10.0.0.15"}
+{"LogID":"19","timestamp":"2026-10-01 09:02:18","deviceId":"device02","hostId":"server02","ip":"172.16.1.8","port":"443","message":"Connection closed","level":"INFO"}
+{"LogID":"20","host":"server02","cpuUsage":"15.0","memoryUsage":"12288","diskUsage":"30","status":"OK"}
+{"LogID":"21","level":"ERROR","rawLog":"FW-ALLOW src=172.16.1.8 dst=10.0.0.15 dport=3306 protocol=TCP rule=RATE_LIMIT"}
+{"LogID":"22","timestamp":"2026-10-01 09:00:34","message":"파일 다운로드","user":"guest","ip":"172.16.1.8"}
+{"LogID":"23","action":"DENY","sourceIp":"192.168.0.1","destinationIp":"10.0.0.15","destinationPort":"8080","protocol":"TCP","rule":"BLOCK_EXTERNAL"}
+{"LogID":"24","level":"ERROR","rawLog":"2026-10-01 09:04:13:sensor03:server02:192.168.0.10:443:Heartbeat received:ERROR"}
+{"LogID":"25","paymentId":"PAY-20261020-00128","user":"lee02","amount":"89000","currency":"KRW","status":"PENDING"}
+{"LogID":"26","timestamp":"2026-10-01 09:00:17","message":"세션 만료","user":"kim01","ip":"192.168.0.4"}
+{"LogID":"27","host":"app01","cpuUsage":"91.5","memoryUsage":"8192","diskUsage":"56","status":"WARN"}
+{"LogID":"28","timestamp":"2026-10-01 09:01:08","message":"권한 확인","user":"admin","ip":"203.0.113.25"}
+{"LogID":"29","timestamp":"2026-10-01 09:01:42","message":"로그인 성공","user":"guest","ip":"192.168.0.4"}
+{"LogID":"30","host":"server01","cpuUsage":"64.5","memoryUsage":"8192","diskUsage":"94","status":"WARN"}
+{"LogID":"31","timestamp":"2026-10-01 09:01:59","message":"권한 확인","user":"park03","ip":"192.168.0.1"}
+{"LogID":"32","timestamp":"2026-10-01 09:02:33","message":"세션 만료","user":"choi04","ip":"203.0.113.25"}
+{"LogID":"33","timestamp":"2026-10-01 09:04:59","deviceId":"device01","hostId":"collector01","ip":"10.0.0.15","port":"8080","message":"Packet received","level":"WARN"}
+{"LogID":"34","host":"app01","cpuUsage":"15.0","memoryUsage":"12288","diskUsage":"81","status":"WARN"}
+{"LogID":"35","host":"db01","cpuUsage":"26.8","memoryUsage":"2048","diskUsage":"75","status":"OK"}
+{"LogID":"36","level":"ERROR","rawLog":"2026-10-01 09:00:23:sensor03:server01:192.168.0.1:443:Connection closed:INFO"}
+{"LogID":"37","paymentId":"PAY-20261020-00141","user":"lee02","amount":"120000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"38","paymentId":"PAY-20261020-00133","user":"choi04","amount":"12000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"39","action":"DENY","sourceIp":"192.168.0.1","destinationIp":"10.0.0.15","destinationPort":"3306","protocol":"TCP","rule":"RATE_LIMIT"}
+{"LogID":"40","timestamp":"2026-10-01 09:02:50","message":"로그아웃","user":"guest","ip":"10.0.0.15"}
+{"LogID":"41","timestamp":"2026-10-01 09:03:50","deviceId":"device01","hostId":"server01","ip":"172.16.1.8","port":"514","message":"Timeout detected","level":"WARN"}
+{"LogID":"42","action":"DENY","sourceIp":"203.0.113.25","destinationIp":"10.0.0.15","destinationPort":"443","protocol":"TCP","rule":"RATE_LIMIT"}
+{"LogID":"43","action":"DENY","sourceIp":"203.0.113.25","destinationIp":"192.168.1.10","destinationPort":"8080","protocol":"TCP","rule":"BLOCK_EXTERNAL"}
+{"LogID":"44","action":"DENY","sourceIp":"192.168.0.1","destinationIp":"10.0.0.20","destinationPort":"443","protocol":"UDP","rule":"RATE_LIMIT"}
+{"LogID":"45","timestamp":"2026-10-01 09:03:04","deviceId":"device01","hostId":"collector01","ip":"172.16.1.8","port":"514","message":"Heartbeat received","level":"ERROR"}
+{"LogID":"46","timestamp":"2026-10-01 09:03:27","deviceId":"device02","hostId":"server02","ip":"172.16.1.8","port":"9000","message":"Heartbeat received","level":"WARN"}
+{"LogID":"47","timestamp":"2026-10-01 09:00:00","deviceId":"device02","hostId":"collector01","ip":"203.0.113.25","port":"514","message":"Timeout detected","level":"INFO"}
+{"LogID":"48","host":"server01","cpuUsage":"24.5","memoryUsage":"2048","diskUsage":"69","status":"OK"}
+{"LogID":"49","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.1 dst=10.0.0.20 dport=80 protocol=UDP rule=ALLOW_INTERNAL"}
+{"LogID":"50","host":"server01","cpuUsage":"91.5","memoryUsage":"4096","diskUsage":"41","status":"WARN"}
+{"LogID":"51","timestamp":"2026-10-01 09:02:41","deviceId":"device01","hostId":"server01","ip":"192.168.0.10","port":"9000","message":"Connection closed","level":"INFO"}
+{"LogID":"52","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.1 dst=10.0.0.20 dport=80 protocol=UDP rule=BLOCK_EXTERNAL"}
+{"LogID":"53","timestamp":"2026-10-01 09:05:06","message":"로그아웃","user":"park03","ip":"192.168.0.1"}
+{"LogID":"54","paymentId":"PAY-20261020-00139","user":"park03","amount":"12000","currency":"KRW","status":"PENDING"}
+{"LogID":"55","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.10 dst=10.0.0.20 dport=80 protocol=UDP rule=RATE_LIMIT"}
+{"LogID":"56","host":"db01","cpuUsage":"23.6","memoryUsage":"6144","diskUsage":"47","status":"OK"}
+{"LogID":"57","level":"ERROR","rawLog":"2026-10-01 09:05:45:sensor03:collector01:192.168.0.1:514:Connection closed:INFO"}
+{"LogID":"58","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.10 dst=10.0.0.20 dport=80 protocol=UDP rule=ADMIN_ACCESS"}
+{"LogID":"59","timestamp":"2026-10-01 09:05:23","message":"로그아웃","user":"admin","ip":"203.0.113.25"}
+{"LogID":"60","timestamp":"2026-10-01 09:06:08","deviceId":"device02","hostId":"server02","ip":"192.168.0.4","port":"9000","message":"Connection established","level":"ERROR"}
+{"LogID":"61","host":"db01","cpuUsage":"71.3","memoryUsage":"16384","diskUsage":"91","status":"WARN"}
+{"LogID":"62","timestamp":"2026-10-01 09:03:07","message":"권한 확인","user":"kim01","ip":"192.168.0.1"}
+{"LogID":"63","paymentId":"PAY-20261020-00140","user":"lee02","amount":"55000","currency":"KRW","status":"FAILED"}
+{"LogID":"64","paymentId":"PAY-20261020-00130","user":"choi04","amount":"25000","currency":"KRW","status":"PENDING"}
+{"LogID":"65","paymentId":"PAY-20261020-00126","user":"kim01","amount":"12000","currency":"KRW","status":"FAILED"}
+{"LogID":"66","paymentId":"PAY-20261020-00131","user":"lee02","amount":"55000","currency":"KRW","status":"FAILED"}
+{"LogID":"67","paymentId":"PAY-20261020-00136","user":"lee02","amount":"120000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"68","action":"DENY","sourceIp":"192.168.0.10","destinationIp":"10.0.0.15","destinationPort":"22","protocol":"UDP","rule":"RATE_LIMIT"}
+{"LogID":"69","timestamp":"2026-10-01 09:04:32","message":"비밀번호 변경","user":"kim01","ip":"203.0.113.25"}
+{"LogID":"70","level":"ERROR","rawLog":"2026-10-01 09:06:31:sensor03:server02:203.0.113.25:443:Timeout detected:INFO"}
+{"LogID":"71","paymentId":"PAY-20261020-00134","user":"lee02","amount":"12000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"72","paymentId":"PAY-20261020-00124","user":"park03","amount":"55000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"73","paymentId":"PAY-20261020-00135","user":"kim01","amount":"120000","currency":"KRW","status":"PENDING"}
+{"LogID":"74","timestamp":"2026-10-01 09:07:17","deviceId":"device01","hostId":"collector01","ip":"203.0.113.25","port":"8080","message":"Timeout detected","level":"WARN"}
+{"LogID":"75","host":"db01","cpuUsage":"22.3","memoryUsage":"4096","diskUsage":"55","status":"OK"}
+{"LogID":"76","level":"ERROR","rawLog":"2026-10-01 09:06:54:sensor03:server02:172.16.1.8:443:Heartbeat received:WARN"}
+{"LogID":"77","timestamp":"2026-10-01 09:04:15","message":"로그인 성공","user":"lee02","ip":"192.168.0.1"}
+{"LogID":"78","level":"ERROR","rawLog":"FW-ALLOW src=10.0.0.15 dst=10.0.0.15 dport=80 protocol=UDP rule=ADMIN_ACCESS"}
+{"LogID":"79","paymentId":"PAY-20261020-00125","user":"kim01","amount":"25000","currency":"KRW","status":"PENDING"}
+{"LogID":"80","timestamp":"2026-10-01 09:02:16","message":"권한 확인","user":"guest","ip":"172.16.1.8"}
+{"LogID":"81","level":"ERROR","rawLog":"FW-ALLOW src=172.16.1.8 dst=192.168.1.10 dport=443 protocol=TCP rule=ALLOW_INTERNAL"}
+{"LogID":"82","paymentId":"PAY-20261020-00129","user":"lee02","amount":"55000","currency":"KRW","status":"PENDING"}
+{"LogID":"83","timestamp":"2026-10-01 09:01:55","deviceId":"device01","hostId":"collector01","ip":"172.16.1.8","port":"443","message":"Heartbeat received","level":"WARN"}
+{"LogID":"84","host":"db01","cpuUsage":"52.7","memoryUsage":"4096","diskUsage":"71","status":"OK"}
+{"LogID":"85","host":"server01","cpuUsage":"14.5","memoryUsage":"12288","diskUsage":"21","status":"OK"}
+{"LogID":"86","timestamp":"2026-10-01 09:00:00","message":"세션 만료","user":"admin","ip":"192.168.0.1"}
+{"LogID":"87","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.10 dst=10.0.0.15 dport=22 protocol=UDP rule=BLOCK_EXTERNAL"}
+{"LogID":"88","timestamp":"2026-10-01 09:01:25","message":"로그아웃","user":"admin","ip":"192.168.0.1"}
+{"LogID":"89","timestamp":"2026-10-01 09:04:36","deviceId":"device02","hostId":"server01","ip":"192.168.0.1","port":"8080","message":"Heartbeat received","level":"ERROR"}
+{"LogID":"90","timestamp":"2026-10-01 09:01:32","deviceId":"device02","hostId":"collector01","ip":"172.16.1.8","port":"8080","message":"Timeout detected","level":"ERROR"}
+{"LogID":"91","host":"server01","cpuUsage":"61.0","memoryUsage":"12288","diskUsage":"27","status":"OK"}
+{"LogID":"92","paymentId":"PAY-20261020-00132","user":"park03","amount":"89000","currency":"KRW","status":"PENDING"}
+{"LogID":"93","timestamp":"2026-10-01 09:03:58","message":"파일 다운로드","user":"kim01","ip":"192.168.0.1"}
+{"LogID":"94","host":"db01","cpuUsage":"32.0","memoryUsage":"2048","diskUsage":"76","status":"OK"}
+{"LogID":"95","host":"db01","cpuUsage":"20.6","memoryUsage":"12288","diskUsage":"51","status":"OK"}
+{"LogID":"96","level":"ERROR","rawLog":"FW-ALLOW src=192.168.0.4 dst=10.0.0.15 dport=80 protocol=UDP rule=RATE_LIMIT"}
+{"LogID":"97","paymentId":"PAY-20261020-00123","user":"choi04","amount":"12000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"98","action":"DENY","sourceIp":"203.0.113.25","destinationIp":"192.168.1.10","destinationPort":"80","protocol":"TCP","rule":"ALLOW_INTERNAL"}
+{"LogID":"99","paymentId":"PAY-20261020-00127","user":"kim01","amount":"120000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"100","paymentId":"PAY-20261020-00138","user":"lee02","amount":"12000","currency":"KRW","status":"SUCCESS"}
+{"LogID":"101","host":"server02","cpuUsage":"16.0","memoryUsage":"2048","diskUsage":"50","status":"OK"}
+{"LogID":"102","timestamp":"2026-10-01 09:03:41","message":"비밀번호 변경","user":"kim01","ip":"192.168.0.4"}
+{"LogID":"103","level":"ERROR","rawLog":"나는에러로그크크크/에러"}

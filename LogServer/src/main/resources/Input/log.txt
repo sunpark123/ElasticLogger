@@ -1,0 +1,104 @@
+2026-10-01 09:00:00 / 로그인 성공 / 사용자: admin / IP: 192.168.0.1
+2026-10-01 09:00:37 / 로그아웃 / 사용자: user01 / IP: 192.168.0.2
+2026-10-01 09:01:14 / 페이지 조회 / 사용자: user02 / IP: 192.168.0.3
+2026-10-01 09:05:22:sensor03:server02:203.0.113.25:514:Timeout detected:INFO
+PAY-20261020-00142 | user=choi04 | amount=25000 | currency=KRW | status=FAILED
+[RESOURCE] host=server01 cpu=15.3% memory=16384MB disk=63% status=OK
+[RESOURCE] host=app01 cpu=92.3% memory=4096MB disk=60% status=WARN
+[RESOURCE] host=server01 cpu=31.9% memory=4096MB disk=88% status=WARN
+PAY-20261020-00137 | user=kim01 | amount=12000 | currency=KRW | status=SUCCESS
+FW-ALLOW src=192.168.0.10 dst=10.0.0.15 dport=80 protocol=TCP rule=RATE_LIMIT
+2026-10-01 09:04:49 / 비밀번호 변경 / 사용자: admin / IP: 172.16.1.8
+2026-10-01 09:01:09:device02:server01:192.168.0.10:514:Heartbeat received:ERROR
+FW-ALLOW src=10.0.0.15 dst=10.0.0.15 dport=22 protocol=UDP rule=RATE_LIMIT
+[RESOURCE] host=app01 cpu=47.3% memory=8192MB disk=26% status=OK
+FW-DENY src=192.168.0.4 dst=10.0.0.15 dport=8080 protocol=UDP rule=RATE_LIMIT
+2026-10-01 09:00:51 / 로그인 성공 / 사용자: choi04 / IP: 172.16.1.8
+FW-ALLOW src=203.0.113.25 dst=10.0.0.20 dport=80 protocol=UDP rule=BLOCK_EXTERNAL
+2026-10-01 09:00:46:device01:server01:10.0.0.15:514:Packet received:ERROR
+2026-10-01 09:03:24 / 파일 다운로드 / 사용자: choi04 / IP: 10.0.0.15
+2026-10-01 09:02:18:device02:server02:172.16.1.8:443:Connection closed:INFO
+[RESOURCE] host=server02 cpu=15.0% memory=12288MB disk=30% status=OK
+FW-ALLOW src=172.16.1.8 dst=10.0.0.15 dport=3306 protocol=TCP rule=RATE_LIMIT
+2026-10-01 09:00:34 / 파일 다운로드 / 사용자: guest / IP: 172.16.1.8
+FW-DENY src=192.168.0.1 dst=10.0.0.15 dport=8080 protocol=TCP rule=BLOCK_EXTERNAL
+2026-10-01 09:04:13:sensor03:server02:192.168.0.10:443:Heartbeat received:ERROR
+PAY-20261020-00128 | user=lee02 | amount=89000 | currency=KRW | status=PENDING
+2026-10-01 09:00:17 / 세션 만료 / 사용자: kim01 / IP: 192.168.0.4
+[RESOURCE] host=app01 cpu=91.5% memory=8192MB disk=56% status=WARN
+2026-10-01 09:01:08 / 권한 확인 / 사용자: admin / IP: 203.0.113.25
+2026-10-01 09:01:42 / 로그인 성공 / 사용자: guest / IP: 192.168.0.4
+[RESOURCE] host=server01 cpu=64.5% memory=8192MB disk=94% status=WARN
+2026-10-01 09:01:59 / 권한 확인 / 사용자: park03 / IP: 192.168.0.1
+2026-10-01 09:02:33 / 세션 만료 / 사용자: choi04 / IP: 203.0.113.25
+2026-10-01 09:04:59:device01:collector01:10.0.0.15:8080:Packet received:WARN
+[RESOURCE] host=app01 cpu=15.0% memory=12288MB disk=81% status=WARN
+[RESOURCE] host=db01 cpu=26.8% memory=2048MB disk=75% status=OK
+2026-10-01 09:00:23:sensor03:server01:192.168.0.1:443:Connection closed:INFO
+PAY-20261020-00141 | user=lee02 | amount=120000 | currency=KRW | status=SUCCESS
+PAY-20261020-00133 | user=choi04 | amount=12000 | currency=KRW | status=SUCCESS
+FW-DENY src=192.168.0.1 dst=10.0.0.15 dport=3306 protocol=TCP rule=RATE_LIMIT
+2026-10-01 09:02:50 / 로그아웃 / 사용자: guest / IP: 10.0.0.15
+2026-10-01 09:03:50:device01:server01:172.16.1.8:514:Timeout detected:WARN
+FW-DENY src=203.0.113.25 dst=10.0.0.15 dport=443 protocol=TCP rule=RATE_LIMIT
+FW-DENY src=203.0.113.25 dst=192.168.1.10 dport=8080 protocol=TCP rule=BLOCK_EXTERNAL
+FW-DENY src=192.168.0.1 dst=10.0.0.20 dport=443 protocol=UDP rule=RATE_LIMIT
+2026-10-01 09:03:04:device01:collector01:172.16.1.8:514:Heartbeat received:ERROR
+2026-10-01 09:03:27:device02:server02:172.16.1.8:9000:Heartbeat received:WARN
+2026-10-01 09:00:00:device02:collector01:203.0.113.25:514:Timeout detected:INFO
+[RESOURCE] host=server01 cpu=24.5% memory=2048MB disk=69% status=OK
+FW-ALLOW src=192.168.0.1 dst=10.0.0.20 dport=80 protocol=UDP rule=ALLOW_INTERNAL
+[RESOURCE] host=server01 cpu=91.5% memory=4096MB disk=41% status=WARN
+2026-10-01 09:02:41:device01:server01:192.168.0.10:9000:Connection closed:INFO
+FW-ALLOW src=192.168.0.1 dst=10.0.0.20 dport=80 protocol=UDP rule=BLOCK_EXTERNAL
+2026-10-01 09:05:06 / 로그아웃 / 사용자: park03 / IP: 192.168.0.1
+PAY-20261020-00139 | user=park03 | amount=12000 | currency=KRW | status=PENDING
+FW-ALLOW src=192.168.0.10 dst=10.0.0.20 dport=80 protocol=UDP rule=RATE_LIMIT
+[RESOURCE] host=db01 cpu=23.6% memory=6144MB disk=47% status=OK
+2026-10-01 09:05:45:sensor03:collector01:192.168.0.1:514:Connection closed:INFO
+FW-ALLOW src=192.168.0.10 dst=10.0.0.20 dport=80 protocol=UDP rule=ADMIN_ACCESS
+2026-10-01 09:05:23 / 로그아웃 / 사용자: admin / IP: 203.0.113.25
+2026-10-01 09:06:08:device02:server02:192.168.0.4:9000:Connection established:ERROR
+[RESOURCE] host=db01 cpu=71.3% memory=16384MB disk=91% status=WARN
+2026-10-01 09:03:07 / 권한 확인 / 사용자: kim01 / IP: 192.168.0.1
+PAY-20261020-00140 | user=lee02 | amount=55000 | currency=KRW | status=FAILED
+PAY-20261020-00130 | user=choi04 | amount=25000 | currency=KRW | status=PENDING
+PAY-20261020-00126 | user=kim01 | amount=12000 | currency=KRW | status=FAILED
+PAY-20261020-00131 | user=lee02 | amount=55000 | currency=KRW | status=FAILED
+PAY-20261020-00136 | user=lee02 | amount=120000 | currency=KRW | status=SUCCESS
+FW-DENY src=192.168.0.10 dst=10.0.0.15 dport=22 protocol=UDP rule=RATE_LIMIT
+2026-10-01 09:04:32 / 비밀번호 변경 / 사용자: kim01 / IP: 203.0.113.25
+2026-10-01 09:06:31:sensor03:server02:203.0.113.25:443:Timeout detected:INFO
+PAY-20261020-00134 | user=lee02 | amount=12000 | currency=KRW | status=SUCCESS
+PAY-20261020-00124 | user=park03 | amount=55000 | currency=KRW | status=SUCCESS
+PAY-20261020-00135 | user=kim01 | amount=120000 | currency=KRW | status=PENDING
+2026-10-01 09:07:17:device01:collector01:203.0.113.25:8080:Timeout detected:WARN
+[RESOURCE] host=db01 cpu=22.3% memory=4096MB disk=55% status=OK
+2026-10-01 09:06:54:sensor03:server02:172.16.1.8:443:Heartbeat received:WARN
+2026-10-01 09:04:15 / 로그인 성공 / 사용자: lee02 / IP: 192.168.0.1
+FW-ALLOW src=10.0.0.15 dst=10.0.0.15 dport=80 protocol=UDP rule=ADMIN_ACCESS
+PAY-20261020-00125 | user=kim01 | amount=25000 | currency=KRW | status=PENDING
+2026-10-01 09:02:16 / 권한 확인 / 사용자: guest / IP: 172.16.1.8
+FW-ALLOW src=172.16.1.8 dst=192.168.1.10 dport=443 protocol=TCP rule=ALLOW_INTERNAL
+PAY-20261020-00129 | user=lee02 | amount=55000 | currency=KRW | status=PENDING
+2026-10-01 09:01:55:device01:collector01:172.16.1.8:443:Heartbeat received:WARN
+[RESOURCE] host=db01 cpu=52.7% memory=4096MB disk=71% status=OK
+[RESOURCE] host=server01 cpu=14.5% memory=12288MB disk=21% status=OK
+2026-10-01 09:00:00 / 세션 만료 / 사용자: admin / IP: 192.168.0.1
+FW-ALLOW src=192.168.0.10 dst=10.0.0.15 dport=22 protocol=UDP rule=BLOCK_EXTERNAL
+2026-10-01 09:01:25 / 로그아웃 / 사용자: admin / IP: 192.168.0.1
+2026-10-01 09:04:36:device02:server01:192.168.0.1:8080:Heartbeat received:ERROR
+2026-10-01 09:01:32:device02:collector01:172.16.1.8:8080:Timeout detected:ERROR
+[RESOURCE] host=server01 cpu=61.0% memory=12288MB disk=27% status=OK
+PAY-20261020-00132 | user=park03 | amount=89000 | currency=KRW | status=PENDING
+2026-10-01 09:03:58 / 파일 다운로드 / 사용자: kim01 / IP: 192.168.0.1
+[RESOURCE] host=db01 cpu=32.0% memory=2048MB disk=76% status=OK
+[RESOURCE] host=db01 cpu=20.6% memory=12288MB disk=51% status=OK
+FW-ALLOW src=192.168.0.4 dst=10.0.0.15 dport=80 protocol=UDP rule=RATE_LIMIT
+PAY-20261020-00123 | user=choi04 | amount=12000 | currency=KRW | status=SUCCESS
+FW-DENY src=203.0.113.25 dst=192.168.1.10 dport=80 protocol=TCP rule=ALLOW_INTERNAL
+PAY-20261020-00127 | user=kim01 | amount=120000 | currency=KRW | status=SUCCESS
+PAY-20261020-00138 | user=lee02 | amount=12000 | currency=KRW | status=SUCCESS
+[RESOURCE] host=server02 cpu=16.0% memory=2048MB disk=50% status=OK
+2026-10-01 09:03:41 / 비밀번호 변경 / 사용자: kim01 / IP: 192.168.0.4
+나는에러로그크크크/에러

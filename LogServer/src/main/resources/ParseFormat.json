@@ -1,0 +1,69 @@
+{
+  "LOGIN": {
+    "hint": "/",
+    "pattern": "^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{3}) \\[([^]]+)\\] (.*)$",
+    "groupList": [
+      "timestamp",
+      "level",
+      "url"
+    ]
+  },
+
+  "SYSTEM": {
+    "hint": "device",
+    "pattern": "^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}):([^:]+):([^:]+):([\\d.]+):(\\d+):(.+):([A-Z]+)$",
+    "groupList": [
+      "timestamp",
+      "deviceId",
+      "hostId",
+      "ip",
+      "port",
+      "message",
+      "level"
+    ]
+  },
+  "web-server-1": {
+    "hint": "/",
+    "pattern": "^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}) / (.*?) / 사용자: (.*?) / IP: ([\\d.]+)$",
+    "groupList": [
+      "timestamp",
+      "message",
+      "user",
+      "ip"
+    ]
+  },
+  "PAYMENT": {
+    "hint": "PAY-",
+    "pattern": "^(PAY-\\d{8}-\\d+) \\| user=(\\S+) \\| amount=(\\d+) \\| currency=(\\w+) \\| status=(SUCCESS|FAILED|PENDING)$",
+    "groupList": [
+      "paymentId",
+      "user",
+      "amount",
+      "currency",
+      "status"
+    ]
+  },
+  "RESOURCE": {
+    "hint": "[RESOURCE]",
+    "pattern": "^\\[RESOURCE\\] host=(\\S+) cpu=([\\d.]+)% memory=(\\d+)MB disk=(\\d+)% status=(\\w+)$",
+    "groupList": [
+      "host",
+      "cpuUsage",
+      "memoryUsage",
+      "diskUsage",
+      "status"
+    ]
+  },
+  "FIREWALL": {
+    "hint": "FW-DENY",
+    "pattern": "^FW-(ALLOW|DENY) src=([\\d.]+) dst=([\\d.]+) dport=(\\d+) protocol=(TCP|UDP) rule=(\\S+)$",
+    "groupList": [
+      "action",
+      "sourceIp",
+      "destinationIp",
+      "destinationPort",
+      "protocol",
+      "rule"
+    ]
+  }
+}
